@@ -118,7 +118,7 @@ def run(vcf):
                 somatic[tmp]=1
     infile.close()
     ###########################step4:filter somatic site in cosmic and known germline site in dbsnp
-    infile=open(vcf,"r")
+    infile=open("tmp.vcf","r")
     outfile=open("tmp2.vcf","w")
     for line in infile:
         line = line.strip()
