@@ -17,6 +17,8 @@
     另外变异位点也是考虑体细胞突变，如何区分体细胞和遗传性突变，要么你就是配对样本，如果你是tumor only那么可以参考Foundation Medicine’s FoundationOne panel 开发的SGZ（https://github.com/jsunfmi/SGZ），不过是需要一定的样本作为训练集合的[5,7]
  
     TMB有明确证据证明在 non-small cell lung carcinoma (NSCLC)是biomarker，但并不是在所有癌种中都适用,泛癌种的TMB表现可以参考[9-10]
+    
+    最近新出的一篇对tumor only样本进行somatic和germline位点进行区分Oh S, Geistlinger L, Ramos M, et al. Reliable analysis of clinical tumor-only whole exome sequencing data[J]. bioRxiv, 2019: 552711.
 
 ##  参考文献
 
@@ -40,7 +42,7 @@
 
 10.  Samstein R M, Lee C H, Shoushtari A N, et al. Tumor mutational load predicts survival after immunotherapy across multiple cancer types[J]. Nature genetics, 2019, 51(2): 202-206.
 
-
+11. Oh S, Geistlinger L, Ramos M, et al. Reliable analysis of clinical tumor-only whole exome sequencing data[J]. bioRxiv, 2019: 552711.
 ##  TMB.py
 
     依据文献[1,8]也就是FoundationOne CDx (F1CDx)计算TMB，主要是要考虑同义突变，防止样本噪音
