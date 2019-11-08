@@ -8,7 +8,7 @@ cosmic_anno="/data/Database/COSMIC/release_v88/CosmicMutantExport.tsv"##download
 cosmic_vcf="/data/Database/COSMIC/release_v88/CosmicCodingMuts.vcf"##download cosmic
 annovar="/software/docker_tumor_base/Resource/Annovar/"
 dbsnp_germline="/data/Database/hg19/dbsnp/germline.vcf"#(SAO=1)
-common_snp="/data/Database/hg19/dbsnp/dbsnp.common.vcf"#(COMMON=1)
+common_snp="/data/Database/hg19/dbsnp/00-common_all.vcf"#(download from NCBI)
 database = ['1000g2015aug_all', 'ExAC_ALL', 'esp6500siv2_all','genome_AF','exome_AF','exome_AF_popmax','genome_AF_popmax',
             'ExAC_AFR','ExAC_AMR','ExAC_EAS','ExAC_FIN','ExAC_NFE','ExAC_OTH','ExAC_SAS']
 def run(vcf):
